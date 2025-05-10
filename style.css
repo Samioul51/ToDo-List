@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color:yellowgreen;
+}
+
+header{
+    background-color: burlywood;
+}
+.title{
+    color:#222831;
+}
+
+.navDummy{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
