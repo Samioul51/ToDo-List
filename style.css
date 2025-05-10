@@ -1,24 +1,49 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
+    font-family: 'Courier New', Courier, monospace;
 }
 
 body{
-    background-color:yellowgreen;
+    background-color: yellowgreen;
+    padding:0;
+    margin:0;
+    scroll-behavior: smooth;
 }
 
 header{
     background-color: burlywood;
 }
+
 .title{
     color:#222831;
+    font-weight: bold;
 }
 
+.heading{
+    color:#CC3333;
+    font-weight: bold;
+}
 .navDummy{
     display: flex;
     justify-content: flex-end;
 }
 
+.newtask{
+    display: flex;
+    justify-content: flex-end;
+    margin:50px 50px 50px 0px;
+}
 
+.btn{
+    font-weight: bold;
+    background-color: white;
+}
+
+.tasksList{
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
